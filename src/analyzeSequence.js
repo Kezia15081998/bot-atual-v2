@@ -20,7 +20,7 @@ export function analyzeSequence(sequence) {
 				sequence: sequence.split(','),
 				times: times,
 			};
-		});
+		}); 
 
 	return sortedSequences;
 }
